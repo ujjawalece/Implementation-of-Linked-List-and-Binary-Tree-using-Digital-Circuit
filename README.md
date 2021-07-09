@@ -1,7 +1,7 @@
 # Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit
 ## Digital circuit for Linked List-
 ### Problem Statement-
-We have to implement a **linked list** data structure using the digital cirduits components like mux, gates, registers e.t.c.
+We have to implement a **linked list** data structure using the digital circuit components like mux, gates, registers e.t.c.
 And finally, we have to display the maximum number present in the linked list which is smaller than a given number.
 Please, read the complete problem statement [here](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/Digisim'21_PS1.pdf) for better undersatnding.
 ### Approach-
@@ -31,10 +31,30 @@ To find the address we travel through ROM data using a simple counter and compar
 output of ROM with the amount which Harshad Mehta can repay, if its equal we show the
 counter value which is the ADDRESS of the bank.
 
-Now, we have our required result, we just have to show it on 7 segment display.
+Now, we have our required result in binary form, we just have to show it on 7 segment display. Before that we have to convrt it into BCD.
 For 7 segment display we will use **Shift Add 3 method**. You can read about it [here](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/Binary2BCD.pdf).
-## Solution-
+### Solution-
 You can find complete proteus file [here](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/ps1.DSN).
 ### Working-
 You can see the working video of our circuit [here](https://drive.google.com/file/d/1smdCNSce_toEbJcSIwCuEU5kZWQFbrIi/view?usp=sharing).
 We have used the data give in [problem statement](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/Digisim'21_PS1.pdf).
+
+
+## Digital circuit for Binary Tree-
+### Problem Statement-
+We have to implement a **Binary Tree** data structure using the digital circuit components like mux, gates, registers e.t.c.
+Please, read the complete problem statement [here](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/Digisim'21_PS2.pdf) to understand what exactly we have to do.
+### Approach-
+We will simulate our circuit on EDA tool **Proteus**.
+
+We have a ROM which act as a memory device for this circuit. Its store all the values of linked list corresponding to there addresses. You can change the data of Rom by using [this](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/python%20image%20file.py) python file. It will create [binary_file_PS1_t1.bin](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/binary_file_PS2_t.bin) and you have to just load this file on our ROM.
+
+
+
+Now, we have our required result, we just have to show it on 7 segment display.
+For 7 segment display we will use **Shift Add 3 method**. You can read about it [here](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/Binary2BCD.pdf).
+### Solution-
+You can find complete proteus file [here](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/ps2.DSN).
+### Working-
+You can see the working video of our circuit [here](https://drive.google.com/file/d/1-Hjrgi0n4gRep6W1q02odHNMzv3j3KjB/view?usp=sharing).
+We have used the data give in [problem statement](https://github.com/ujjawalece/Implementation-of-Linked-List-and-Binary-Tree-using-Digital-Circuit/blob/main/Digisim'21_PS2.pdf).
